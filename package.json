@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/uuid": "^10.0.0",
     "axios": "^1.6.5",
     "mongoose": "^8.1.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-toastify": "^10.0.3"
+    "react-hot-toast": "^2.5.1",
+    "react-redux": "^9.2.0",
+    "react-toastify": "^10.0.3",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
+    "@types/node": "22.10.10",
+    "@types/react": "19.0.8",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
